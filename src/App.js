@@ -113,7 +113,7 @@ function App(){
             
             <Grid item xs={4}>
               <Stack className = 'block fixed' spacing ={2}id = 'answer1'  padding ={2}>
-                <img src= {images[anila]} style= {{height: 230, width: 230}} class ='block fixed'></img>
+                <img src= {images[anila]} style= {{height: 230, width: 230}} class ='block fixed' alt =''></img>
                 <h2 id= 'answer1' class ='answer1 block fixed' style={{display: 'none'}}>You Guessed it 🔥</h2>
               </Stack>  
   
@@ -123,7 +123,7 @@ function App(){
             <Stack spacing ={2}> 
             <h3 className ='block round button1' onClick={Opengift1} style={{display: 'none'}}>See who gave you this song</h3>
             <Stack className ='gift1 block' style={{display: 'none'}} padding= {2}>
-              <img src = {anila_photo} class ='blocl fixed' style= {{height: 230, width: 230}}></img>
+              <img src = {anila_photo} class ='blocl fixed' style= {{height: 230, width: 230}}alt =''></img>
               <p>"This song reminds me of him because I love him even when he's being a mardy bum"</p>            
               <h3 className ='block round' onClick={changePage}>Next Challenge</h3>
             </Stack>
@@ -164,7 +164,7 @@ function App(){
         
         <Grid item xs={4}>
           <Stack className = 'block fixed' spacing ={2}id = 'answer1'  padding ={2}>
-            <img src= {images[anna]} style= {{height: 230, width: 230}} class ='block fixed'></img>
+            <img src= {images[anna]} style= {{height: 230, width: 230}} class ='block fixed'alt =''></img>
             <h2 id= 'answer2' class ='answer2 block fixed' style={{display: 'none'}}>You Guessed it 🔥</h2>
           </Stack>  
 
@@ -174,7 +174,7 @@ function App(){
         <Stack spacing ={2}> 
         <h3 className ='block round button2' onClick={Opengift2} style={{display: 'none'}}>See who gave you this song</h3>
           <Stack className ='gift2 block' style={{display: 'none'}} padding= {2}>
-            <img src = {anna_photo} class ='blocl fixed' style= {{height: 230, width: 230}}></img>
+            <img src = {anna_photo} class ='blocl fixed' style= {{height: 230, width: 230}}alt =''></img>
             <p>"Everytime I hear this it reminds me of second year when we watched the film together for the first time and saw the student production at the gala. Was so much fun and I miss those chill film watching evenings and of course the subsequent late night discussions - maybe the good morning song would have been more appropriate... Anyway I'm super excited to be getting them back again really soon!! (not to mention all those trips to indie cinemas we'll definitely get round to)"</p>            
             <h3 className ='block round' onClick={changePage}>Next Challenge</h3>
           </Stack>
@@ -217,7 +217,7 @@ function App(){
         
         <Grid item xs={4}>
           <Stack className = 'block fixed' spacing ={2}id = 'answer3'  padding ={2}>
-            <img src= {images[cyrus]} style= {{height: 230, width: 230}} class ='block fixed'></img>
+            <img src= {images[cyrus]} style= {{height: 230, width: 230}} class ='block fixed'alt =''></img>
             <h2 class ='answer3 block fixed' style={{display: 'none'}}>You Guessed it 🔥</h2>
           </Stack>  
 
@@ -227,7 +227,7 @@ function App(){
         <Stack spacing ={2}> 
           <h3 className ='block round button3' onClick={Opengift3} style={{display: 'none'}}>See who gave you this song</h3>
           <Stack className ='gift3 block' style={{display: 'none'}} padding= {2}>
-            <img src = {cyrus_photo} class ='blocl fixed' style= {{height: 230, width: 230}}></img>
+            <img src = {cyrus_photo} class ='blocl fixed' style= {{height: 230, width: 230}}alt =''></img>
             <p>"If you did not know who, close this app right now and burn it."</p>            
             <h3 className ='block round' onClick={changePage}>See Ultimate Gift</h3>
           </Stack>
