@@ -2,6 +2,11 @@ h2{
  margin: 0;
  padding: 0;
 }
+
+#name{
+  font-size: 90px;
+
+}
 .App {
   text-align: center;
 }
@@ -41,7 +46,7 @@ h2{
 }
 
 
-.block::before{
+.gift1_block_accent{
   justify-content: center;
   align-items: center;
 }
