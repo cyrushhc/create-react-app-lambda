@@ -132,8 +132,8 @@ function App(){
             
             <Stack spacing ={2}> 
             <h3 className ='block round button1' onClick={Opengift1} style={{display: 'none'}}>See who gave you this song</h3>
-            <Stack direction ='row' className ='gift1 block accent' style={{display: 'none'}} padding= {3}>
-              <p id= "name" className="block">ANILA</p>
+            <Stack direction ='row' className ='gift1 block accent fixed' style={{display: 'none'}} padding= {3}>
+              <p id= "name" className="block fixed">ANILA</p>
               <p class ='block fixed'>"This song reminds me of him because I love him even when he's being a mardy bum"</p>            
               <h3 className ='block round' onClick={changePage}>Next Challenge</h3>
             </Stack>
@@ -183,8 +183,8 @@ function App(){
         
         <Stack spacing ={2}> 
         <h3 className ='block round button2' onClick={Opengift2} style={{display: 'none'}}>See who gave you this song</h3>
-          <Stack direction ='row' className ='gift2 block accent' style={{display: 'none'}} padding= {2} id ='giftstac3'>
-            <p id= "name" className="block">ANNA</p>
+          <Stack direction ='row' className ='gift2 block accent fixed' style={{display: 'none'}} padding= {2} id ='giftstac3'>
+            <p id= "name" className="block fixed">ANNA</p>
             <p class ='block fixed'>"Everytime I hear this it reminds me of second year when we watched the film together for the first time and saw the student production at the gala. Was so much fun and I miss those chill film watching evenings and of course the subsequent late night discussions - maybe the good morning song would have been more appropriate... Anyway I'm super excited to be getting them back again really soon!! (not to mention all those trips to indie cinemas we'll definitely get round to)"</p>            
             <h3 className ='block round' onClick={changePage}>Next Challenge</h3>
           </Stack>
@@ -236,8 +236,8 @@ function App(){
         
         <Stack spacing ={2}> 
           <h3 className ='block round button3' onClick={Opengift3} style={{display: 'none'}}>See who gave you this song</h3>
-          <Stack direction ='row' className ='gift3 block accent' style={{display: 'none'}} padding= {3}>
-            <p id= "name" className="block">CYRUS</p>
+          <Stack direction ='row' className ='gift3 block accent fixed' style={{display: 'none'}} padding= {3}>
+            <p id= "name" className="block fixed">CYRUS</p>
             <p class ='block fixed'>"If you did not know who, close this app right now and burn it."</p>            
             <h3 className ='block round' onClick={changePage}>See Ultimate Gift</h3>
           </Stack>
