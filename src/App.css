@@ -9,6 +9,7 @@ h2{
 }
 .App {
   text-align: center;
+  --block-accent-color: #0055b3;
 }
 
 .App-logo {
