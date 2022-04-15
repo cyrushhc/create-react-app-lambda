@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+
+
+.vinyl{
+  max-height: 30%;
+}
