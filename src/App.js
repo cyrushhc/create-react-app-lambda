@@ -1,9 +1,6 @@
-import React, { Component, useState} from "react"
-import logo from "./logo.svg"
+import React, {useState} from "react"
 import "./App.css"
-import ReactDOM from "react-dom";
 import soundfile from './assets/test.m4a'
-import Sound from 'react-sound'
 import Stack from '@mui/material/Stack'
 import { TextField } from "@mui/material";
 import image from './assets/Rectangle 1.png';
@@ -78,6 +75,8 @@ function App(){
   }
 
   switch(page){
+    default:
+      break;  
     case 0: return (
       <Stack className="App" spacing={2} sx = {{marginX: 20}}>
         {/* Qusestion */}
